@@ -1,0 +1,7 @@
+pymupdf
+faiss-cpu
+sentence-transformers
+numpy
+tqdm
+typer
+python-dotenv

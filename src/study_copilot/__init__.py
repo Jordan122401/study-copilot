@@ -1,0 +1,1 @@
+"""Study Copilot package."""

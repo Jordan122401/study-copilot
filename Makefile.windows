@@ -1,0 +1,14 @@
+\
+        # Use with: nmake /f Makefile.windows <target>
+        # Assumes PowerShell venv: .venv\Scripts\Activate.ps1
+
+        PY=python
+
+        ingest:
+        	$(PY) scripts\ingest_pdfs.py
+
+        index:
+        	$(PY) scripts\build_index.py
+
+        ask:
+        	$(PY) scripts\ask.py "$(Q)"
